@@ -239,13 +239,20 @@ label:hover {
    body {
      width:100vh;
    }
+   .nav {
+    line-height:4em;
+    padding:5%;
+   }
    .title {
-    height:100vh;
+    height:200vh;
     background-size: auto 100%;
     line-height:2.5em;
     background-repeat:no-repeat;
     background-position: center center;
     background-blend-mode:multiply;
+  }
+  .title .content {
+    padding-top: 60vh;
   }
   .header{
     width:90%;
@@ -263,11 +270,13 @@ label:hover {
   }
   .media-holder {
     padding-bottom:85%;
+    height:100vh;
     }
   .media-holder iframe {
     transform: scale(0.6);
     transform-origin: 0 0;
-    left:-5%;
+    left:0%;
+    padding-top: 100vh;
     width:160%;
     height:150%;
   }
