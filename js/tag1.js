@@ -37,7 +37,7 @@ d3.json("https://raw.githubusercontent.com/3milychu/csmi-data/master/data/all.js
   // create children hierarchy json
 
 var newData = { name :"root", 
-      path: "1.jpg", 
+      path: "https://raw.githubusercontent.com/3milychu/csmi-data/master/assets/logo.jpg", 
       children : [] },
     levels = ["sheet"];
 
@@ -63,7 +63,9 @@ json.forEach(function(d){
         // This is a leaf, so add the last element to the specified branch
         if ( depth === levels.length - 1 ) depthCursor.push({ size : d.size, path: d.path, tag1: d.tag1, tag2: d.tag2, 
         tag3: d.tag3, tag4: d.tag4, tag5: d.tag5, tag6: d.tag6, sheet: d.sheet, first: d.first, last: d.last, contact: d.contact, 
-        research_interests: d.research_interests, role: d.role, event_type: d.event_type,
+        research_interests: d.research_interests, role: d.role, event_type: d.event_type, organization_name: d.organization_name,
+        description: d.description, center_lab_name: d.center_lab_name, subject: d.subject, meeting_space: d.meeting_space, 
+        where: d.where,
         event_name: d.event_name, event_date: d.event_date, course_name: d.course_name, instructor: d.instructor});
     });
 });
@@ -151,26 +153,46 @@ function update() {
   var setEvents = images
           // Append details text
           .on( 'click', function (d) {
+
+            // Details if sheet is "People"
             if (d.sheet == "People") {
-              d3.select("h1").html(d.sheet); 
+              d3.select("h1").html("Leaders"); 
               d3.select("h2").html(d.first + " " + d.last + "<br>" + d.role); 
               d3.select("h3").html ("<a href=mailto:'" + d.contact + "'>" + "Contact"+ "</a>")
             }
+
+            // Details if sheet is "Events"
             if (d.sheet == "Events") {
-              d3.select("h1").html(d.sheet); 
-                d3.select("h2").html(caps(d.event_name) + "<br><br>" + caps(d.event_date.substring(0,50)));
+              d3.select("h1").html("Event"); 
+                d3.select("h2").html(caps(d.event_name) + "<br><br>" + caps(d.event_date.substring(0,50)) + 
+                  "<br><br>" + d.where);
                 if (d.event_type != 0) {
                    d3.select("h3").html (d.event_type)
                 } else {
-
+                  d3.select("h3").html ("")
                 }
-               
-              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
             }
+
+            // Details if sheet is "Courses"
             if (d.sheet == "Courses") {
-              d3.select("h1").html(d.sheet); 
+              d3.select("h1").html("Course"); 
                 d3.select("h2").html(d.course_name.toLowerCase() + "<br><br>" + d.instructor.toLowerCase()); 
                 d3.select("h3").html (d.school_college)
+              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
+            }
+
+            // Details if sheet is "Organization"
+            if (d.sheet == "Organizations") {
+              d3.select("h1").html("Organization"); 
+                d3.select("h2").html(d.organization_name.toLowerCase() + "<br><br>" + d.description.toLowerCase()); 
+              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
+            }
+
+            // Details if sheet is "Centers/Labs"
+            if (d.sheet == "Centers/Labs") {
+              d3.select("h1").html("Center / Lab"); 
+                d3.select("h2").html(d.center_lab_name.toLowerCase() + "<br><br>" + d.subject.toLowerCase()); 
+                d3.select("h3").html ("<a href=mailto:'" + d.contact + "'>" + "Contact"+ "</a>")
               // d3.select("#featured").html("<img src='" + d.src + "'>"); 
             }
                 
