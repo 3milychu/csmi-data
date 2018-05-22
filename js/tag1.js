@@ -76,7 +76,7 @@ json.forEach(function(d){
   root = newData;
   root.fixed = true;
   root.x = w / 2.5;
-  root.y = h / 3;
+  root.y = h / 2.8;
  
  
         // Build the path

@@ -78,6 +78,11 @@ h4 {
   width:60%;
 }
 
+h3 a {
+  color: #243973;
+  text-decoration:underline;
+}
+
 svg {
   z-index:1;
 }
@@ -261,7 +266,9 @@ label:hover {
   .media-holder iframe {
     transform: scale(0.8);
     transform-origin: 0 0;
-    left:2%;
+    left:-10%;
+    width:130%;
+    height:150%;
   }
   .scroll-post {
       height:50%;
