@@ -1,9 +1,13 @@
+function caps(string) {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
 // some colour variables
 var tcBlack = "#130C0E";
 
 // rest of vars
-var w = 800,
-    h = 1000,
+var w = 1000,
+    h = 800,
     maxNodeSize = 2,
     x_browser = 20,
     y_browser = 25,
@@ -58,7 +62,9 @@ json.forEach(function(d){
         depthCursor = depthCursor[index].children;
         // This is a leaf, so add the last element to the specified branch
         if ( depth === levels.length - 1 ) depthCursor.push({ size : d.size, path: d.path, tag1: d.tag1, tag2: d.tag2, 
-        tag3: d.tag3, tag4: d.tag4, tag5: d.tag5, tag6: d.tag6 });
+        tag3: d.tag3, tag4: d.tag4, tag5: d.tag5, tag6: d.tag6, sheet: d.sheet, first: d.first, last: d.last, contact: d.contact, 
+        research_interests: d.research_interests, role: d.role, event_type: d.event_type,
+        event_name: d.event_name, event_date: d.event_date, course_name: d.course_name, instructor: d.instructor});
     });
 });
 
@@ -145,11 +151,29 @@ function update() {
   var setEvents = images
           // Append details text
           .on( 'click', function (d) {
-                d3.select("h1").html(d.sheet); 
-                // d3.select("h2").html(d.objectBegin + ", " + d.Culture + "<br>" + d.Medium); 
-                // d3.select("h3").html ("<a href='" + d.link + "' target=_blank>" + " Visit item"+ "</a>")
-              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
+            if (d.sheet == "People") {
+              d3.select("h1").html(d.sheet); 
+              d3.select("h2").html(d.first + " " + d.last + "<br>" + d.role); 
+              d3.select("h3").html ("<a href=mailto:'" + d.contact + "'>" + "Contact"+ "</a>")
+            }
+            if (d.sheet == "Events") {
+              d3.select("h1").html(d.sheet); 
+                d3.select("h2").html(caps(d.event_name) + "<br><br>" + caps(d.event_date.substring(0,50)));
+                if (d.event_type != 0) {
+                   d3.select("h3").html (d.event_type)
+                } else {
 
+                }
+               
+              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
+            }
+            if (d.sheet == "Courses") {
+              d3.select("h1").html(d.sheet); 
+                d3.select("h2").html(d.course_name.toLowerCase() + "<br><br>" + d.instructor.toLowerCase()); 
+                d3.select("h3").html (d.school_college)
+              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
+            }
+                
               
            })
 
