@@ -28,7 +28,7 @@ d3.json("https://raw.githubusercontent.com/3milychu/csmi-data/master/data/all.js
   json = json;
 
   json = json.filter(function(d) { 
-            return d.CRN != "CRN" & d.path != "path"});
+            return d.size == 40000});
 
   // create children hierarchy json
 
@@ -134,7 +134,7 @@ function update() {
 
   // Append images
   var images = nodeEnter.append("svg:image")
-        .attr("xlink:href",  function(d) { return "https://raw.githubusercontent.com/3milychu/csmi-data/master/assets/" + d.path;})
+        .attr("xlink:href",  function(d) { return d.path;})
         .attr("x", function(d) { return -10;})
         .attr("y", function(d) { return -10;})
         .attr("height", 20)
@@ -144,12 +144,14 @@ function update() {
   // make the image grow a little on mouse over and add the text details on click
   var setEvents = images
           // Append details text
-          // .on( 'click', function (d) {
-          //     d3.select("h1").html(d.Title + " from cluster " + d.labels);  
-          //     d3.select("h2").html(d.objectBegin + ", " + d.Culture + "<br>" + d.Medium); 
-          //     d3.select("h3").html ("<a href='" + d.link + "' target=_blank>" + " Visit item"+ "</a>")
-          //     d3.select("#featured").html("<img src='" + d.src + "'>"); 
-          //  })
+          .on( 'click', function (d) {
+                d3.select("h1").html(d.sheet); 
+                // d3.select("h2").html(d.objectBegin + ", " + d.Culture + "<br>" + d.Medium); 
+                // d3.select("h3").html ("<a href='" + d.link + "' target=_blank>" + " Visit item"+ "</a>")
+              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
+
+              
+           })
 
           .on( 'mouseenter', function() {
             // select element in current context
@@ -169,23 +171,6 @@ function update() {
               .attr("height", 20)
               .attr("width", 20);
           });
-
-  // Append hero name on roll over next to the node as well
-  var rollover = nodeEnter.append("svg:image")
-        .attr("class", "nodeimage")
-        .attr("xlink:href", function(d) { return d.src; })
-        .style("height","100px")
-        .attr("x", x_browser -55)
-        .attr("y", y_browser -70)
-
-  var setEvents = rollover
-          // Append details text
-          .on( 'click', function (d) {
-              d3.select("h1").html(d.sheet); 
-              d3.select("h2").html(d.objectBegin + ", " + d.Culture + "<br>" + d.Medium); 
-              d3.select("h3").html ("<a href='" + d.link + "' target=_blank>" + " Visit item"+ "</a>")
-              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
-           })
 
  
   // Exit any old nodes.
