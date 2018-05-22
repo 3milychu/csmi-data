@@ -262,12 +262,13 @@ label:hover {
     font-size:2em;
   }
   .media-holder {
+    padding-bottom:85%;
     }
   .media-holder iframe {
     transform: scale(0.8);
     transform-origin: 0 0;
     left:-10%;
-    width:130%;
+    width:120%;
     height:150%;
   }
   .scroll-post {
