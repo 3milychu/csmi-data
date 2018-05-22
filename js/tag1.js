@@ -17,7 +17,7 @@ vis = d3.select("#vis")
   .attr("width", w)
   .attr("height", h);
  
-d3.json("https://media.githubusercontent.com/media/3milychu/clusteringfashion/master/assets/century.json", function(json) {
+d3.json("https://raw.githubusercontent.com/3milychu/csmi-data/master/data/all.json", function(json) {
 
   var format = d3.format("");
 
@@ -28,14 +28,14 @@ d3.json("https://media.githubusercontent.com/media/3milychu/clusteringfashion/ma
   json = json;
 
   json = json.filter(function(d) { 
-            return d.Title != "Title"});
+            return d.CRN != "CRN" & d.path != "path"});
 
   // create children hierarchy json
 
 var newData = { name :"root", 
-      path: "https://lh3.googleusercontent.com/-YADBvaC2hUQ/AAAAAAAAAAI/AAAAAAAAAEg/_fr6798_2Uo/photo.jpg", 
+      path: "1.jpg", 
       children : [] },
-    levels = ["labels"];
+    levels = ["sheet"];
 
 // For each data row, loop through the expected levels traversing the output tree
 json.forEach(function(d){
@@ -57,9 +57,8 @@ json.forEach(function(d){
         // Now reference the new child array as we go deeper into the tree
         depthCursor = depthCursor[index].children;
         // This is a leaf, so add the last element to the specified branch
-        if ( depth === levels.length - 1 ) depthCursor.push({ Title : d.Title, link : d.link, path : d.path, 
-          objectBegin : d.objectBegin, size : d.size, Culture : d.Culture, Medium : d.Medium, src : d.src,
-          labels: d.labels });
+        if ( depth === levels.length - 1 ) depthCursor.push({ size : d.size, path: d.path, tag1: d.tag1, tag2: d.tag2, 
+        tag3: d.tag3, tag4: d.tag4, tag5: d.tag5, tag6: d.tag6 });
     });
 });
 
@@ -135,7 +134,7 @@ function update() {
 
   // Append images
   var images = nodeEnter.append("svg:image")
-        .attr("xlink:href",  function(d) { return d.path;})
+        .attr("xlink:href",  function(d) { return "https://raw.githubusercontent.com/3milychu/csmi-data/master/assets/" + d.path;})
         .attr("x", function(d) { return -10;})
         .attr("y", function(d) { return -10;})
         .attr("height", 20)
@@ -182,7 +181,7 @@ function update() {
   var setEvents = rollover
           // Append details text
           .on( 'click', function (d) {
-              d3.select("h1").html(d.Title + " from cluster " + d.labels); 
+              d3.select("h1").html(d.sheet); 
               d3.select("h2").html(d.objectBegin + ", " + d.Culture + "<br>" + d.Medium); 
               d3.select("h3").html ("<a href='" + d.link + "' target=_blank>" + " Visit item"+ "</a>")
               // d3.select("#featured").html("<img src='" + d.src + "'>"); 
@@ -195,7 +194,7 @@ function update() {
  
   // Re-select for update.
   path = vis.selectAll("path.link")
-      .style("stroke-width","0.4px");
+      .style("stroke-width","1px");
   node = vis.selectAll("g.node");
  
 function tick() {
