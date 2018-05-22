@@ -42,6 +42,24 @@ h4 {
   padding:5%;
 }
 
+/*Nav*/
+
+.nav {
+  position:fixed;
+  background-color:#243973;
+  color:white;
+  width:100%;
+  padding:2%;
+  margin:auto;
+  z-index:101;
+  opacity:0;
+  transition: 0.5s ease;
+}
+
+.nav a {
+  margin:5%;
+}
+
 /* vis */
 
 .header {
@@ -72,7 +90,7 @@ svg {
   margin-left:0%;
   position:relative;
   display:block;
-  height:110vh;
+  height:auto;
 }
 
 .videoWrapper {
@@ -103,10 +121,11 @@ svg {
 
 .media-holder iframe {
   position:absolute;
-  top:5%;
+  padding-top:10%;
+  padding-bottom:0;
   left:10%;
   width:100%;
-  height:100%;
+  height:90%;
   transform: scale(0.8);
   transform-origin: 0 0;
 }

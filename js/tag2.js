@@ -32,7 +32,7 @@ d3.json("https://raw.githubusercontent.com/3milychu/csmi-data/master/data/all.js
   json = json;
 
   json = json.filter(function(d) { 
-            return d.size == 40000 & d.tag1 == 1});
+            return d.size == 40000 & d.tag2 == 1});
 
   // create children hierarchy json
 
