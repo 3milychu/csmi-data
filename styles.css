@@ -186,6 +186,11 @@ label {
   cursor:pointer;
 }
 
+a {
+  text-decoration:none;
+  color:white;
+}
+
 label:hover {
   background-color: #CBA1BD;
   border: 1px solid #CBA1BD;
@@ -210,7 +215,14 @@ label:hover {
    body {
      width:100vh;
    }
-
+   .title {
+    height:100vh;
+    background-size: auto 100%;
+    line-height:2.5em;
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-blend-mode:multiply;
+  }
   .header{
     width:90%;
     height:90%;
@@ -228,9 +240,9 @@ label:hover {
   .media-holder {
     }
   .media-holder iframe {
-    transform: scale(1.7);
+    transform: scale(0.8);
     transform-origin: 0 0;
-    padding-left:5%;
+    left:2%;
   }
   .scroll-post {
       height:50%;
