@@ -42,6 +42,13 @@ h4 {
   padding:5%;
 }
 
+.external {
+  background-color: black;
+  width:60%;
+  color:white;
+  padding:5%;
+}
+
 /*Nav*/
 
 .nav {
