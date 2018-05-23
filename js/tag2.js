@@ -176,24 +176,23 @@ function update() {
             // Details if sheet is "Courses"
             if (d.sheet == "Courses") {
               d3.select("h1").html("Course").attr("class", "course"); 
-                d3.select("h2").html(d.course_name.toLowerCase() + "<br><br>" + d.instructor.toLowerCase()); 
-                d3.select("h3").html (d.school_college)
+              d3.select("h2").html(d.course_name.toLowerCase() + "<br><br>" + d.instructor.toLowerCase()); 
+              d3.select("h3").html (d.school_college)
               // d3.select("#featured").html("<img src='" + d.src + "'>"); 
             }
 
             // Details if sheet is "Organization"
             if (d.sheet == "Organizations") {
               d3.select("h1").html("Organization").attr("class", "org"); 
-                d3.select("h2").html(d.organization_name.toLowerCase() + "<br><br>" + d.description.toLowerCase()); 
-              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
+              d3.select("h2").html(d.organization_name.toLowerCase() + "<br><br>" + d.description.toLowerCase()); 
+              d3.select("h3").html ("")
             }
 
             // Details if sheet is "Centers/Labs"
             if (d.sheet == "Centers/Labs") {
               d3.select("h1").html("Center / Lab").attr("class", "center"); 
-                d3.select("h2").html(d.center_lab_name.toLowerCase() + "<br><br>" + d.subject.toLowerCase()); 
-                d3.select("h3").html ("<a href=mailto:'" + d.contact + "'>" + "Contact"+ "</a>")
-              // d3.select("#featured").html("<img src='" + d.src + "'>"); 
+              d3.select("h2").html(d.center_lab_name.toLowerCase() + "<br><br>" + d.subject.toLowerCase()); 
+              d3.select("h3").html ("<a href=mailto:'" + d.contact + "'>" + "Contact"+ "</a>")
             }
                 
               
