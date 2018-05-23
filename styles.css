@@ -244,9 +244,9 @@ label:hover {
    }
    .title {
     height:200vh;
-    background-size: auto 50%;
+    background-size: auto 100%;
     background-repeat:no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-blend-mode:multiply;
   }
   .title .content {
