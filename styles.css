@@ -9,21 +9,21 @@ h4 {
 
 .people {
   background-color: #443489;
-  width:50%;
+  width:60%;
   color:white;
   padding:5%;
 }
 
 .event {
   background-color: #CBA1BD;
-  width:50%;
+  width:25%;
   color:white;
   padding:5%;
 }
 
 .course {
   background-color: #97B0CE;
-  width:50%;
+  width:30%;
   color:white;
   padding:5%;
 }
@@ -36,8 +36,8 @@ h4 {
 }
 
 .center {
-  background-color: #243973;
-  width:50%;
+  background-color: #253A71;
+  width:40%;
   color:white;
   padding:5%;
 }
@@ -88,7 +88,7 @@ svg {
 }
 
 .node image {
-  filter:grayscale(100%);
+  cursor:pointer;
 }
 
 .post {
@@ -244,7 +244,7 @@ label:hover {
    }
    .title {
     height:200vh;
-    background-size: auto 200vh;
+    background-size: auto 100%;
     background-repeat:no-repeat;
     background-position: center center;
     background-blend-mode:multiply;
