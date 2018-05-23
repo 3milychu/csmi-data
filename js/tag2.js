@@ -7,7 +7,7 @@ var tcBlack = "#130C0E";
 
 // rest of vars
 var w = 1000,
-    h = 800,
+    h = 900,
     maxNodeSize = 2,
     x_browser = 20,
     y_browser = 25,
@@ -177,7 +177,7 @@ function update() {
             // Details if sheet is "Courses"
             if (d.sheet == "Courses") {
               d3.select("h1").html("Course").attr("class", "course"); 
-              d3.select("h2").html(d.course_name.toLowerCase() + "<br><br>" + d.instructor.toLowerCase()); 
+              d3.select("h2").html(d.course_name  + "<br><br>" + d.instructor ); 
               d3.select("h3").html (d.school_college)
               // d3.select("#featured").html("<img src='" + d.src + "'>"); 
             }
@@ -185,21 +185,21 @@ function update() {
             // Details if sheet is "Organization"
             if (d.sheet == "Organizations") {
               d3.select("h1").html("Organization").attr("class", "org"); 
-              d3.select("h2").html(d.organization_name.toLowerCase() + "<br><br>" + d.description.toLowerCase()); 
+              d3.select("h2").html(d.organization_name  + "<br><br>" + d.description ); 
               d3.select("h3").html ("")
             }
 
             // Details if sheet is "Centers/Labs"
             if (d.sheet == "Centers/Labs") {
               d3.select("h1").html("Center / Lab").attr("class", "center"); 
-              d3.select("h2").html(d.center_lab_name.toLowerCase() + "<br><br>" + d.subject.toLowerCase()); 
+              d3.select("h2").html(d.center_lab_name  + "<br><br>" + d.subject ); 
               d3.select("h3").html ("<a href=mailto:'" + d.contact + "'>" + "Contact"+ "</a>")
             }
 
             // Details if sheet is "External"
             if (d.sheet == "External") {
               d3.select("h1").html("External Center").attr("class", "external"); 
-              d3.select("h2").html(d.external_center_name.toLowerCase() + "<br><br>" + d.university_affiliation + "<br><br>" +d.mission.toLowerCase()); 
+              d3.select("h2").html(d.external_center_name + "<br><br>" + d.university_affiliation + "<br><br>" +d.mission); 
               d3.select("h3").html ("<a href='" + d.link + "' target='_blank'>Visit</a>")
             }
                 
