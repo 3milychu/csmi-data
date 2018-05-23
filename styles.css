@@ -177,7 +177,6 @@ path.link {
   background-image: url("assets/bg.png");
   background-attachment: fixed;
   background-size: 100% auto;
-  line-height:2.5em;
   background-repeat:no-repeat;
   background-blend-mode:multiply;
 }
@@ -245,8 +244,7 @@ label:hover {
    }
    .title {
     height:200vh;
-    background-size: auto 100%;
-    line-height:2.5em;
+    background-size: auto 200vh;
     background-repeat:no-repeat;
     background-position: center center;
     background-blend-mode:multiply;
