@@ -7,7 +7,7 @@ var tcBlack = "#130C0E";
 
 // rest of vars
 var w = 1000,
-    h = 800,
+    h = 900,
     maxNodeSize = 2,
     x_browser = 20,
     y_browser = 25,
@@ -61,11 +61,12 @@ json.forEach(function(d){
         // Now reference the new child array as we go deeper into the tree
         depthCursor = depthCursor[index].children;
         // This is a leaf, so add the last element to the specified branch
-        if ( depth === levels.length - 1 ) depthCursor.push({ size : d.size, path: d.path, tag1: d.tag1, tag2: d.tag2, 
+       if ( depth === levels.length - 1 ) depthCursor.push({ size : d.size, path: d.path, tag1: d.tag1, tag2: d.tag2, 
         tag3: d.tag3, tag4: d.tag4, tag5: d.tag5, tag6: d.tag6, sheet: d.sheet, first: d.first, last: d.last, contact: d.contact, 
         research_interests: d.research_interests, role: d.role, event_type: d.event_type, organization_name: d.organization_name,
         description: d.description, center_lab_name: d.center_lab_name, subject: d.subject, meeting_space: d.meeting_space, 
-        where: d.where,
+        where: d.where, external_center_name: d.external_center_name, mission: d.mission, link: d.link, 
+        university_affiliation: d.university_affiliation,
         event_name: d.event_name, event_date: d.event_date, course_name: d.course_name, instructor: d.instructor});
     });
 });
@@ -193,6 +194,13 @@ function update() {
               d3.select("h1").html("Center / Lab").attr("class", "center"); 
               d3.select("h2").html(d.center_lab_name.toLowerCase() + "<br><br>" + d.subject.toLowerCase()); 
               d3.select("h3").html ("<a href=mailto:'" + d.contact + "'>" + "Contact"+ "</a>")
+            }
+
+             // Details if sheet is "External"
+            if (d.sheet == "External") {
+              d3.select("h1").html("External Center").attr("class", "external"); 
+              d3.select("h2").html(d.external_center_name.toLowerCase() + "<br><br>" + d.university_affiliation + "<br><br>" +d.mission.toLowerCase()); 
+              d3.select("h3").html ("<a href='" + d.link + "' target='_blank'>Visit</a>")
             }
                 
               
