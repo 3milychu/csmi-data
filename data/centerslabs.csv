@@ -1,4 +1,4 @@
-﻿center_lab_name,subject,purpose_summary_statements,location,school,faculty,staff_structure,students,notes,sponsors,partners,contact,websites,sheet
+﻿center_lab_name,subject,purpose_summary_statements,location,school,faculty,staff_structure,students,notes,sponsors,partners,contact,websites,sheet,tag1,tag2,tag3,tag4,tag5
 · Observatory on Latin America (OLA),International Affairs and Global Perspectives,"Objectives
 -Improve academic and public understanding by observing and studying the processes of political and economic change underway in Latin America.
 -Foster a public dialogue between and within the United States and Latin America about the challenges of building social democracy in a globalized world, including creating opportunities for Latin American leaders to directly express their views to audiences in the United States.
@@ -73,7 +73,7 @@ Current Staff
 - Universidad Nacional de Avellaneda (UNDAV), Argentina
 - Autoridad de Cuenca Matanza Riachuelo (ACUMAR), Argentina
 - Ministerio de Educación de la Nación, Argentina","212.206.3524 
-ola@newschool.ed",http://www.observatorylatinamerica.org/,Centers/Labs
+ola@newschool.ed",http://www.observatorylatinamerica.org/,Centers/Labs,1,0,0,1,0
 · Re/Lab,Media communications,"Premised on the idea that students of media think and engage more meaningfully when they deeply understand the material history of their subject, Re/Lab encourages media innovation that is critically and historically informed for a sustainable creative future.",,,"Melissa Friedling - Project Co-Coordinator
 Assistant Professor, Director of Undergraduate Programs in Media Studies
 School of Media Studies // School of Undergraduate Studies
@@ -162,7 +162,7 @@ Barry Salmon
 Research Coordinator, external partnerships, technical advisor (sound)
 Associate Professor
 School of Media Studies
-NSPE",,,,,,http://smscommons.newschool.edu/relab/,Centers/Labs
+NSPE",,,,,,http://smscommons.newschool.edu/relab/,Centers/Labs,,,,,
 · Tishman Environment and Design Center,"Art, Design, and Theory","The Tishman Environment and Design Center at The New School fosters the integration of bold design, policy, and social justice approaches to environmental issues to advance just and sustainable outcomes in collaboration with communities.
 
 The Tishman Center addresses the increasingly urgent need to integrate design and environment to confront climate change and its social impacts.
@@ -260,12 +260,35 @@ JENIFER WIGHTMAN - Associate Professor - Parsons
 MAYA WILEY - Senior Vice President for Social Justice - Milano
 RAFI YOUATT - Assistant Professor - NSSR
 ","tedc@newschool.edu
-212.229.5321 x1463",https://tishmancenter.org/,Centers/Labs
+212.229.5321 x1463",https://tishmancenter.org/,Centers/Labs,1,0,0,1,0
 Bernard Schwartz Center for Economic Policy Analysis (SCEPA),"Politics, Policy, and Society","SCEPA works to focus the public economics debate on the role government can and should play in the real productive economy - that of business, management, and labor - to raise living standards, create economic security, and attain full employment.","6 East 16th Street
 11th Floor
-New York, NY 10003-3034",,#NAME?,#NAME?,,"The Schwartz Center for Economic Policy Analysis (SCEPA) is an economic policy research think tank located within the department of economics at The New School for Social Research.
+New York, NY 10003-3034",,"-Teresa Ghilarducci - Bernard L. and Irene Schwartz Chair in Economic Policy Analysis 
+- Ying ChenYing Chen - Economist 
+- Paulo Dos SantosPaulo Dos Santos -Economist 
+- Duncan Foley - Economist
+- Darrick Hamilton - Economist
+- David Howell - Economist 
+- Clara Mattei - Economist
+- Will Milberg - Economist and Dean of The New School for Social Research
+- Sanjay G. Reddy - Economist
+- Willi Semmler - Economist
+- Anwar Shaikh - Economist
+- Lance Taylor - Economist
+-Michael Cohen
+-Sakiko Fukada-Parr
+-Shagun Mehrotra
+-Barry Herman
+-Richard Wolff
+-Janet Roitman
+-Julia Ott","- Bernard L. Schwartz - Founder 
+- Teresa Ghilarducci, Director
+- Bridget Fisher, Associate Director
+- Bridget Fisher , communications specialist 
+- Diana Shikaki, Assistant Director 
+- Tony Webb, Research Director ",,"The Schwartz Center for Economic Policy Analysis (SCEPA) is an economic policy research think tank located within the department of economics at The New School for Social Research.
 
-SCEPA works with New School economists and researchers to focus public debate on the role government can and should play in the economy to raise living standards, create economic security, and attain full employment. With a focus on collaboration and outreach, it provides original, standards-based research on key policy issues to empower policymakers and create positive change.",,,212.229.5901 x1,economicpolicyresearch.org,Centers/Labs
+SCEPA works with New School economists and researchers to focus public debate on the role government can and should play in the economy to raise living standards, create economic security, and attain full employment. With a focus on collaboration and outreach, it provides original, standards-based research on key policy issues to empower policymakers and create positive change.",,,212.229.5901 x1,economicpolicyresearch.org,Centers/Labs,0,0,0,1,0
 Center for Data Arts,"Art, Design, and Theory","The Center for Data Arts is a research lab and creative studio within The New School; we engage data as both subject and medium for artistic expression.
 CDA brings the agility and creativity of a working art studio to bear on complex data problems.  We produce large-scale media installations, open-source software, original academic research, and multimodal experiences that make intuitive sense of inscrutable data. 
 
@@ -282,7 +305,7 @@ Information Aesthetics: How do language and metaphor influence our understanding
 
 Before May 2016, the Center for Data Arts was known as the Parsons Institute for Information Mapping (PIIM).
 ",,,"Phone: (212) 229-6825
-Email: cda@newschool.edu",https://www.data-arts.nyc/,Centers/Labs
+Email: cda@newschool.edu",https://www.data-arts.nyc/,Centers/Labs,0,0,0,0,1
 Center for New York City Affairs,Urban and Community Development,"Transforming Policy in NYC
 The Center for New York City Affairs at The New School is an applied policy research institute that drives innovation in social policy. The Center provides analysis and solutions. We focus on how public policy impacts low-income communities, and we strive for a more just and equitable city.
 
@@ -382,10 +405,14 @@ Workforce Professional Training Institute
   
 ",,"Phone 212 229 5400
 Fax 212 229 5335
-Email centernyc@newschool.edu",http://www.centernyc.org/,Centers/Labs
+Email centernyc@newschool.edu",http://www.centernyc.org/,Centers/Labs,1,1,0,1,0
 Center for Public Scholarship,"Politics, Policy, and Society","The Center for Public Scholarship seeks to promote free inquiry and public discussion, bringing the best scholarship in and outside of the academy to bear on the critical and contested issues of our times.","The New School
 66 West 12th Street
-New York, NY 10011",The New School for Social Research,#NAME?,#NAME?,,#NAME?,,,FB: @CenterforPublicScholarship,,Centers/Labs
+New York, NY 10011",The New School for Social Research,"- Arien Mack, Alfred and Monette Marrow Professor of Psychology, The New School for Social Research","- Arien Mack, Director
+- Alexandra Kisielewski, Manager
+- Cara Schlesinger, Managing Editor and Project Manager",,"- Social Research: An International Quarterly
+- Journal Donation Project
+- Endangered Scholars Worldwide",,,FB: @CenterforPublicScholarship,,Centers/Labs,0,0,0,1,0
 Collaboratory,Education,"In 2014 a group of 50 faculty, students and external partners came together to create the Collaboratory, a community of practice to more deliberately examine The New School’s approach to project-based learning and public engagement.   The Collaboratory’s virtual platform is an outgrowth of their work. 
 
 The Collaboratory was developed with funding from the Rockefeller Foundation. It has also benefited from the support of The New School’s Provost Office and the Executive Dean’s Office at the Schools Of Public Engagement.  Strategic advice on web development has also be provided by the Digital Humanities Initiative.  
@@ -401,7 +428,7 @@ Public scholarship is scholarly or creative activity that joins serious intellec
 
 Socially Engaged Learning
 Socially engaged learning entails academic experiences that help students become critically engaged citizens dedicated to solving problems and contributing to the public good. Engaged learning is often project based and experiential. It involves students in field-based, professional or community settings, often in partnership with diverse types of organizations. Course projects range from providing design solutions for identified social challenges, to student performances or creative production in community settings, to research projects looking at a range of social phenomena.  ",Rockerfeller Foundation ,"The nature of the organization is a huge partnership between entities
-The New School's Provost Office at Schools Of Public Engagement Strategic",,http://www.thenewschoolcollaboratory.org/,Centers/Labs
+The New School's Provost Office at Schools Of Public Engagement Strategic",,http://www.thenewschoolcollaboratory.org/,Centers/Labs,0,0,0,0,1
 Designed Realities Lab,"Art, Design, and Theory","The Designed Realities Lab is a research and teaching platform working across The New School that combines design with social thought and the liberal arts in order to develop alternative narratives to technological futures.
 The lab is dedicated to sustaining the idea of multiple possibilities and alternative values in the face of an increasingly monolithic worldview of our technological future. It uses design as a catalyst for a form of interdisciplinary imagining that synthesizes social and political thought, world-making, and emerging technology. At its core is the idea that imagination can be a political force within society.
 
@@ -432,9 +459,9 @@ Parsons School of Design
 New York, NY 10011
 
 Email: designedrealities@newschool.edu
-Phone: 212.229.8970 Ext. 4337",https://www.newschool.edu/designed-realities-lab/,Centers/Labs
+Phone: 212.229.8970 Ext. 4337",https://www.newschool.edu/designed-realities-lab/,Centers/Labs,0,0,0,0,1
 Digital Equity Lab,Urban and Community Development,"Access to infrastructure of all kinds, from roads to telephone lines to the Internet, represents one of the most potent ways in which societies divide and discriminate against segments of their populations. In the 21st century, the lack of broadband access in less-resourced neighborhoods is a powerful example of technology-based exclusion and even redlining – the practice of denying services to segregated areas. 
-",,"Milano School of International Affairs, Management, and Urban Policy","Maya Wiley - Senior Vice President for Social Justice at The New School and Henry Cohen Professor at the Milano School of International Affairs, Management, and Urban Policy","Maya Wiley - Senior Vice President for Social Justice at The New School and Henry Cohen Professor at the Milano School of International Affairs, Management, and Urban Policy",,,,,,https://www.newschool.edu/research-and-work/advocate-digital-equality/,Centers/Labs
+",,"Milano School of International Affairs, Management, and Urban Policy","Maya Wiley - Senior Vice President for Social Justice at The New School and Henry Cohen Professor at the Milano School of International Affairs, Management, and Urban Policy","Maya Wiley - Senior Vice President for Social Justice at The New School and Henry Cohen Professor at the Milano School of International Affairs, Management, and Urban Policy",,,,,,https://www.newschool.edu/research-and-work/advocate-digital-equality/,Centers/Labs,1,1,0,1,1
 E-Lab,"Art, Design, and Theory","The Parsons Elab is a non profit incubator that adopts a distributed network model, drawing its principles from the Parsons Design Thinking methodology and has at its heart social entrepreneurship. 
 A DISTRIBUTED MODEL - A system where value is co-created and exchanged in a distributed way by a network of participants
 ; Networked business models
@@ -511,7 +538,7 @@ Lower Manhattan HQ
 The New Challenge
 NYDesigns
 Lawyers alliance of New York
-XRC Labs",alexanrc@newschool.edu,http://sds.parsons.edu/elab/about/,Centers/Labs
+XRC Labs",alexanrc@newschool.edu,http://sds.parsons.edu/elab/about/,Centers/Labs,0,0,0,0,1
 Engage Media Lab,Media communications,"Engage Media Lab is a student group and research lab promoting civic engagement through participatory media projects.
 Join us to co-develop workshops, screenings, research projects, seminars and community programs both within and outside The New School.
 ENGAGE MEDIA LAB IS A JOINT INITIATIVE OF THE SCHOOL OF MEDIA STUDIES AND THE STUDLEY GRADUATE PROGRAM IN INTERNATIONAL AFFAIRS AT THE NEW SCHOOL IN NEW YORK CITY. 
@@ -559,7 +586,7 @@ Our screenings and workshops are open to the public, and New School students and
 eml@newschool.edu
 TWITTER: @EngageMediaLab
 
-FACEBOOK: https://www.facebook.com/engagemedialab/",http://www.engagemedialab.org/,Centers/Labs
+FACEBOOK: https://www.facebook.com/engagemedialab/",http://www.engagemedialab.org/,Centers/Labs,0,0,0,1,1
 Healthy Materials Lab,Environment,"We collaborate to enable transformative actions and change.
 We are Healthy Materials Lab at Parsons School of Design, dedicated to a world in which people’s health is placed at the center of all design decisions.
 
@@ -637,90 +664,41 @@ West Harlem Group Assistance, Inc. (WHGA)","affordhealth@newschool.edu
 IG: @healthymaterialslab 
 TW: @parsons_HML
 FB: @healthymaterialslab
-",https://healthymaterialslab.org/,Centers/Labs
+",https://healthymaterialslab.org/,Centers/Labs,1,0,0,0,1
 Heilbroner Center for Capitalism Studies,"Politics, Policy, and Society","The Robert L. Heilbroner Center for Capitalism Studies at the New School for Social Research brings together students and faculty from across The New School for interdisciplinary conversations around theoretical approaches to and analytic methods for the study of capitalisms. Affiliated faculty and students work in diverse and innovative fields including the history of capitalism, economic sociology, international political economy, heterodox economics, critical theory, economic anthropology, and science and technology studies.
 
 The Robert L. Heilbroner Center for Capitalism Studies seek to develop a common language with which capitalism can be understood, analyzed, interpreted, and engaged — with rigor, with precision, and in a manner that is accessible to the broadest possible audience. Our graduate and undergraduate courses examine the basic logic of capitalism (as conceived by a range of theorists), its various historically contingent forms, and its ability to structure our political possibilities and creative endeavors. Our program supports diverse inquiries into the major structuring force in contemporary society, posing questions both timeless and pressing.
 
-",,The New School for Social Research,#NAME?,"Julia Ott - Co-Director
+",,The New School for Social Research,"- Julia Ott is Associate Professor in the History of Capitalism and the co-director of the Robert L. Heilbroner Center for Capitalism Studies at the New School for Social Research and Eugene Lang College at the New School.
+- William Milberg is Dean and Professor of Economics at the New School for Social Research and co-director of the Heilbroner Center for Capitalism Studies at The New School.
+
+
+2017 – 2018 Faculty Fellows
+- Sanjay Ruparelia is Associate Professor of Politics, and Faculty Advisor at the India China Institute, at the New School for Social Research. 
+- Clara Mattei is Assistant Professor of Economics at The New School for Social Research
+- Mark Setterfield is Professor of Economics in the Department of Economics at the New School for Social Research
+- Ying Chen is Assistant Professor of Economics at the New School for Social Research
+- Victoria Hattam is a Professor of Politics ","Julia Ott - Co-Director
 William Millberg - Co-Director ","2017-2018 Graduate Student Fellows
 - Ibrahim Shikaki -PhD in economics at NSSR
 - Michael McHugh has worked as a full-time employee of The New School’s Lang College and studied as a part-time graduate student at The New School for Social Research
 - Guillermina Altomonte - Ph.D. candidate in Sociology at The New School for Social Research
 -Meredith Hall - Ph.D.candidate in sociology at The New School for Social Research
 - Daniel Wagnon - candidate for PhD in Philosophy
-- Amanda Zadorian - Ph.D. candidate in Politics at the New School for Social Research",,,,capitalismstudies@newschool.edu,http://blogs.newschool.edu/heilbroner-center/,Centers/Labs
-Humanities Action Lab,Education,"We Are A Coalition
-
-The Humanities Action Lab (HAL) is a coalition of universities, issue organizations, and 
-public spaces in 20 cities that collaborate to produce community-curated public humanities projects on urgent social issues. Students and stakeholders in each city develop local chapters of national traveling exhibits, web projects, public programs, and other platforms for civic engagement.
-
-About HAL
-The Humanities Action Lab (HAL) is a coalition of universities, issue organizations, and public spaces in 20 cities, and growing, that collaborate to produce community-curated public humanities projects on urgent social issues. Students and stakeholders in each city develop local chapters of national traveling exhibits, web projects, public programs, and other platforms for civic engagement, all made possible by our visionary supporters. Projects travel nationally and internationally to museums, public libraries, cultural centers, and other spaces in each of the communities that helped create them. We always welcome new institutions to join our projects, so please get involved, or reach out if you have any questions. HAL aims to:  
-
-​Foster new public dialogue on contested, deadlocked social issues, through public humanities projects that explore the diverse local histories and current realities of shared global concerns.
-Open space for experimentation and innovation in how design and the humanities can help confront urgent social problems.
-Combine and connect the diverse local perspectives of communities around the world, to create widely applicable and flexible models.
-Create new public humanities prototypes that take on difficult issues and experiment with untested formats.",,several,,"Anna Alves
-Administrative Manager
-ama256@scarletmail.rutgers.edu
-
-Piper Anderson
-Director of Engagement Strategies
-piper@create-forward.com
-
-Aleia Brown
-Program Manager
-
-Shana Russell
-Program Manager
-
-Liz Ševčenko
-Director
-liz.sevcenko@rutgers.edu
-
-Margie Weinstein
-Associate Director
-MargieWeinstein@newschool.edu",,"Two of the Current Projects
-
-States of Incarceration
-Host Institution: The New School
-
-Guantánamo Public Memory Project
-Host Institution: Columbia University
-
-Initiative on Migration, Climate Justice, and Environmental Justice
-Host Institution: Rutgers University-Newark
-","Rutgers University
-The New School
-Open Society Foundations
-The Andrew W. Mellon Foundation
-Institute of Museum and library Services
-Whiting Foundation
-National Endowment for the Humanities","Arizona State University
-Brown University
-DePaul University
-Duke University
-Indiana University-Purdue University Indianapolis
-Northeastern University
-Parsons Paris
-Rutgers University-Newark
-Rutgers University-New Brunswick
-Skidmore College
-The New School
-University of California, Riverside
-University of Connecticut
-University of Massachusetts Amherst
-University of Miami 
-University of Minnesota
-University of New Orleans 
-University of North Carolina at Greensboro
-University of Texas at Austin
-Vanderbilt University","humanitiesactionlab@newschool.edu
-212-229-5800 x2085",https://www.humanitiesactionlab.org/,Centers/Labs
+- Amanda Zadorian - Ph.D. candidate in Politics at the New School for Social Research",,,,capitalismstudies@newschool.edu,http://blogs.newschool.edu/heilbroner-center/,Centers/Labs,0,0,0,1,0
 Institute for Critical Social Inquiry,Social Research and Design,"The Institute is designed to provide scholars with the opportunity to spend a week at the New School’s campus in Greenwich Village, working closely with some of the most distinguished thinkers shaping the course of contemporary social inquiry. The Institute is founded on the premise that responding to current and emergent problems requires developing our collective capacities to formulate new and better questions, rather than relying on the application of all too familiar ready-made theories. In the current landscape in which most of us work today, there is seldom the time or the opportunity for in-depth exploration of those modes of inquiry most relevant to our research agendas and developing projects. How often have we all wished we could steal the time from our current writing and teaching obligations to return to a thinker whose style of thinking and whose conceptual insights shaped us at earlier moments and would mean as much or more to know better today? Our themes are mobile and responsive, joining conceptual labor with pressing political concerns in our times, in an effort to understand and act upon better that which is emergent on our collective horizons.","6 E 16TH ST, 9TH FL. NEW YORK, NY, 10003",NEW SCHOOL FOR SOCIAL RESEARCH,"2018 FACULTY
 
-- Richard J. Bernstein is Vera List Professor of Philosophy and former Dean of the New School for Social Research",#NAME?,,,,,TW : @ICSI_NewSchool,ICSI@NEWSCHOOL.EDU,Centers/Labs
+- Richard J. Bernstein is Vera List Professor of Philosophy and former Dean of the New School for Social Research","- Ann Laura Stoler - Founding Director, Institute for Critical Social Inquiry (ICSI)
+Willy Brandt Distinguished University Professor
+of Anthropology and Historical Studies
+The New School for Social Research
+- Charles A. McDonald - Managing Director -  is a doctoral candidate in anthropology and history at the New School for Social Research.
+- Sarah Freeman - Program Assistant - MA candidate in anthropology at The New School for Social Research
+
+Fellows
+- Jean Comaroff is the Alfred North Whitehead Professor of African and African American Studies and Anthropology
+- John Comaroff is Hugh K. Foster Professor of African and African American Studies and of Anthropology 
+- Nilüfer Göle is Professor of Sociology at the Ecole des Hautes Etudes en Sciences Sociales (EHESS) in Paris",,,,,TW : @ICSI_NewSchool,ICSI@NEWSCHOOL.EDU,Centers/Labs,0,0,0,1,0
 Janey Program in Latin American Studies,International Affairs and Global Perspectives,"Ongoing struggles over social justice, equality, human rights, and political liberty in Latin America resonate deeply at The New School for Social Research, reflecting many of the same concerns that led to the founding of the University in Exile in 1933 and continue to inform and energize our work.
 With generous support from Daniel and Susan Rothenberg, the Janey Program in Latin American Studies was launched in the 1991–1992 academic year. This program supports fellowships for students from Latin America and the Caribbean pursuing graduate studies at The New School, summer fellowships for fieldwork and research in Latin America and the Caribbean, an annual conference, lectures, and occasional visits to The New School by scholars from Latin America. The Janey Program is an important component of the global perspective of The New School for Social Research and of Latin American studies in The New School as a whole.","The New School for Social Research 
 6 East 16th Street, 9th floor, room 933c 
@@ -750,14 +728,14 @@ Email: janeyprogram@newschool.edu
 
 Mailing address: 
 80 Fifth Avenue, 5th floor 
-New York, NY 10011",http://blogs.newschool.edu/janey-program/,Centers/Labs
+New York, NY 10011",http://blogs.newschool.edu/janey-program/,Centers/Labs,1,0,0,1,0
 Lang Civic Engagement and Social Justice,"Eugene Lang 
 College of Liberal Arts ","Lang’s Office of Civic Engagement and Social Justice (CESJ) is a hub that creates civic participation opportunities in which students can bridge their social justice passions and academic work and build community with others who are dedicated to leading social justice–centered lives. CESJ programs take the form of “learning communities,” composed of students, faculty, staff, and community partner organizations around New York City. Through our civic engagement programs, Lang students connect theoretical frameworks and the lived experience of working toward social justice and develop a practice of self-reflection. ","65 W 11th St, New York, NY 10011",,,"Christina Dawkins - Director, Civic Engagement and Social Justice 
 dawkinsc@newschool.edu ",,"Current CESJ programs include:
 
 The Jeff Gural Academic Achievement and Opportunity Scholars Program, a selective opportunity for students who demonstrate a significant commitment to civic participation and social justice before arriving at Lang. Over the four years of their Lang experience, Gural Scholars work closely in cohorts to develop community-based projects focused on social justice at the local, national, and international levels.
 Year-Round Discretionary Funding (“Mini-Grants”) and Summer Internship Grants, which allocate financial resources to students’ professional learning, activist initiatives, creative projects, and other community-based activities that address themes and take action toward social justice.  ",,,"https://www.facebook.com/lang.civicengagement
-https://www.instagram.com/langcesj/",https://www.newschool.edu/lang/civic-engagement-social-justice/,Centers/Labs
+https://www.instagram.com/langcesj/",https://www.newschool.edu/lang/civic-engagement-social-justice/,Centers/Labs,0,0,0,1,0
 New School Social Innovation Initiative,,"a program incubator for diverse activities that advance, broaden, and deepen social innovation–related education at the university.
 
 The New School has long been a center for social innovation. Social innovation as a field of theory and practice is designed to enhance the capacity of individuals, communities, and organizations to devise effective, just, and sustainable solutions to social and environmental problems.
@@ -784,7 +762,7 @@ Dell Social Innovation Competition
 Building the next generation of social entrepreneurs depends not just on world-class teaching and training, but also on supporting students with opportunities for strategic partnerships and start-up capital. With the goal of bringing visibility and public recognition to thousands of social entrepreneurs worldwide, The New School is partnering with Dell to participate in the annual Dell Social Innovation Competition, an international student competition that awards a $50,000 grand prize for the best idea.
 
 Clinton Global Initiative University (CGI U)
-Each year, CGI U hosts a conference where students, national youth organizations, topic experts, and celebrities discuss solutions to pressing global issues. To attend CGI U, students must develop a Commitment to Action, a specific plan of action that addresses a pressing need on campus, in the community, or in a different part of the world.",,,"The administrators of this site appreciate your feedback and information. Please email tnschangemakers@newschool.edu with any questions, comments, or concerns about building a more comprehensive information hub.",,Centers/Labs
+Each year, CGI U hosts a conference where students, national youth organizations, topic experts, and celebrities discuss solutions to pressing global issues. To attend CGI U, students must develop a Commitment to Action, a specific plan of action that addresses a pressing need on campus, in the community, or in a different part of the world.",,,"The administrators of this site appreciate your feedback and information. Please email tnschangemakers@newschool.edu with any questions, comments, or concerns about building a more comprehensive information hub.",,Centers/Labs,0,0,0,1,1
 Parsons Desis Lab,,"Parsons DESIS (Design for Social Innovation and Sustainability) Lab is an action research laboratory created in 2009 at The New School in New York City. DESIS Lab works at the intersection of strategic and service design, management, and social theory, applying interdisciplinary expertise in problem setting and problem solving to sustainable practices and social innovation.","6 East 16th Street, room 1207
 New York City","THE NEW SCHOOL FOR SOCIAL RESEARCH
 SCHOOLS OF PUBLIC ENGAGEMENT
@@ -854,7 +832,7 @@ Visit the Public & Collaborative website for more information.
 
 DESIGNING FOR FINANCIAL EMPOWERMENT
 Launched in 2014 with the support of Citi Community Development, Designing for Financial Empowerment is a cross-sector initiative to explore how service design can be used to make public sector financial empowerment services more effective and accessible. ",,,"Eduardo Staszowski, Director.
-staszowe@newschool.edu",,Centers/Labs
+staszowe@newschool.edu",,Centers/Labs,1,0,0,1,1
 PETLab,Education,"The Prototyping, Education and Technology Lab (PETLab) is dedicated to the design and use of games as a form of public interest and engagement. To do this, we emphasize iterative design methodologies and the processes of collaborative design. Through our work, we connect with scholars and designers in the field of digital media, practitioners working in the spheres of education and social issues, and people of all ages at play.","6 East 16th Street, Room 1201 
 New York, NY 10003",,"Colleen Macklin, Co-Director- Associate Professor in the school of Art, Media and Technology at Parsons The New School for Design","Meagan Durlak, Research Assistant
 James Frankis, Research Assistant
@@ -870,7 +848,7 @@ Colleen Macklin, Co-Director- Associate Professor in the school of Art, Media an
 Patrick Schlafer, Research Assistant - Transdisciplinary Design program
 John Sharp, Co-Director",,"Support for PETLab has come from the AMD Foundation, the John D. and Catherine T. MacArthur Foundation’s Digital Media and Learning initiative, the National Endowment for the Arts, the Knight Foundation, The New School University and other generous funders.
 ","Partners
-We have worked with a wide range of partners such as MTV, Microsoft, Boys and Girls Clubs of America, the National Academy of Public Administration, Radiolab, Public Radio International, Migration Policy Institute, Area/Code, the AMD Foundation, the American Red Cross, the Red Cross/Red Crescent Climate Centre, the New York Public Library and the Institute of Contemporary Art at the University of Pennsylvania.",petlab@parsons.edu,http://petlab.parsons.edu/about/,Centers/Labs
+We have worked with a wide range of partners such as MTV, Microsoft, Boys and Girls Clubs of America, the National Academy of Public Administration, Radiolab, Public Radio International, Migration Policy Institute, Area/Code, the AMD Foundation, the American Red Cross, the Red Cross/Red Crescent Climate Centre, the New York Public Library and the Institute of Contemporary Art at the University of Pennsylvania.",petlab@parsons.edu,http://petlab.parsons.edu/about/,Centers/Labs,0,0,0,1,1
 "The Graduate Institute for Design, Ethnography, and Social Thought (GIDEST)",Social Research and Design,"
 Funded by a grant from the Andrew W. Mellon Foundation and based at The New School for Social Research, GIDEST incubates transdisciplinary ethnographic research at the intersection of social theory, art, and design and fosters dialogue on related themes across the university. GIDEST draws on The New School’s tradition of politically-engaged, historically-grounded, and theoretically-innovative social research, and our strengths as a center of design thinking and practice.
 As well as our popular bi-weekly public seminar series with presenters drawn from the social sciences, arts, and design, we annually support five faculty fellows, five doctoral fellows, and an artist-in-residence, and provide members of the campus community with a lively and inventive research environment as well as a focused interdisciplinary space in which to develop their ideas. Through our lab at 63 Fifth Avenue, we serve as a university-wide hub for collaborative faculty research, interdisciplinary doctoral dissertations, and innovative scholarly practice that draws substantively on ethnographic methodologies and sensibilities. ","63 FIFTH AVENUE, NEW YORK, NY 10003",The New School for Social Research,,"Fellows
@@ -888,7 +866,7 @@ As well as our popular bi-weekly public seminar series with presenters drawn fro
 - Mia Charlene White - Assistant Professor of Environmental Studies at The New School
 - Mine Yildirim - Ph.D. candidate in Politics at the New School for Social Research. 
 - Soyoung Moon - Assistant Professor of Visual Studies at Eugene Lang College. 
-- Haeun Kim - GIDEST Program Assistant and an M.A. candidate in Sociology at The New School for Social Research. ",,"The bi-weekly GIDEST seminar explores work-in-progress presented by prominent and emerging scholars and practitioners. The seminar is held on Fridays from 12-1.30pm in the GIDEST Lab at 411, 63 Fifth Avenue. Sessions are devoted to discussion of pre-circulated papers that can be downloaded in advance from our Seminar page. ",Andrew W. Mellon Foundation ,,GIDEST@newschool.edu ,http://www.gidest.org/,Centers/Labs
+- Haeun Kim - GIDEST Program Assistant and an M.A. candidate in Sociology at The New School for Social Research. ",,"The bi-weekly GIDEST seminar explores work-in-progress presented by prominent and emerging scholars and practitioners. The seminar is held on Fridays from 12-1.30pm in the GIDEST Lab at 411, 63 Fifth Avenue. Sessions are devoted to discussion of pre-circulated papers that can be downloaded in advance from our Seminar page. ",Andrew W. Mellon Foundation ,,GIDEST@newschool.edu ,http://www.gidest.org/,Centers/Labs,0,0,0,1,1
 The New School Office of Social Justice Initiatives,,"Social Justice
 The University Social Justice Committee is made up of students, faculty, staff, and administrators from numerous colleges and departments of The New School who are invited to participate by the Provost's Office. This page is designed to share meeting agendas and notes and other key information about the committee, including subcommittees.
 
@@ -900,28 +878,42 @@ We work to redress the negative effects of those divisions and their intersectio
 This work is built on demands for inclusion that have been voiced by university members and community partners throughout the history of The New School. We hope to address structural barriers that privilege members of some groups and to challenge the entire New School community to work in innovative and inclusive ways. Current social justice efforts at The New School are summarized below.","
 Provost's Office 
 66 West 12th Street 
-New York, NY 10011",,#NAME?,"Committee of students, Faculty and Staff",,"SOCIAL JUSTICE WORK ON CAMPUS
+New York, NY 10011",,"- Maya Wiley, Senior Vice President for Social Justice.","Committee of students, Faculty and Staff",,"SOCIAL JUSTICE WORK ON CAMPUS
 A number of colleges and programs provide access to higher education for working people, serve as a haven for scholars at risk, develop policies promoting equity and democratic governance, design for democratic participation and social change, and contribute to the public discourse on economic development. See ""Useful Links"" for a list of institutes and initiatives.
 See our new Social Justice Blog for news, events and resources for diversity, equity, and social justice.",,,"provost@newschool.edu
 Phone: 212.229.8947 
 Fax: 212.229.8583
 https://www.facebook.com/groups/newschoolsocialjustice/","
-https://www.newschool.edu/provost/social-justice/",Centers/Labs
+https://www.newschool.edu/provost/social-justice/",Centers/Labs,0,1,1,1,0
 The Sheila C. Johnson Design Center,"Art, Design, and Theory","The Sheila C. Johnson Design Center is more than an exhibition space— it's the place where the university and the community come together. Get a behind-the-scenes look inside the center, and hear voices from across Parsons talk about what the SJDC means to them. The Sheila C. Johnson Design Center houses the Anna-Maria and Stephen Kellen Gallery and the Arnold and Sheila Aronson Galleries.","66 Fifth Avenue at 13th Street 
 New York ",Parsons School of Design ,,"
 Christiane Paul - Director/Chief Curator
 Kristina Kaufman - Assistant Director of Exhibitions and Public Programs
 Daisy Wong - Assistant Director of the Galleries
-Daniel Chou - Manager",,,,,,,Centers/Labs
+Daniel Chou - Manager",,,,,,,Centers/Labs,0,,0,0,1
 Transregional Center for Democratic Studies (TCDS),International Affairs and Global Perspectives,"The Transregional Center for Democratic Studies (TCDS) builds on international and interdisciplinary traditions that The New School for Social Research (NSSR) inherited from the University in Exile, which was established at The New School in 1933. TCDS was founded in 1990, inspired by the peaceful dismantling of communism in Eastern Europe, and has been directed from the start by Elzbieta Matynia, associate professor of Sociology at The New School for Social Research. The center offers unique opportunities for global advanced research and cross-cultural collaboration. Its projects address democratic transitions, the workings of collective memory, and—increasingly important in times of massive migrations—the development of a ""culture of borderlands"" and an ""ethos of border thinking"" in order to promote a general openness to difference, hybridity, and diversity in civil society and civic life.  ","The New School for Social Research
 80 Fifth Avenue, Room 516
-New York, NY 10011",The New School for Social Research,ELZBIETA MATYNIA - Professor of Sociology and Liberal Studies at The New School for Social Research ,#NAME?,#NAME?,"TCDS's integrated program activities draws on the concept of the ""region"" as a promising perspective from which to examine the complex relations between the local and the global, not only for policy makers, but also for nongovernmental organizations and a new breed of practice-oriented scholars in the social sciences and humanities. While yielding more comprehensive, in-depth explanations of processes taking place in today's world, the transregional approach encourages and facilitates the quest for consensus among peoples separated by divergent histories, cultures, and economies.
+New York, NY 10011",The New School for Social Research,ELZBIETA MATYNIA - Professor of Sociology and Liberal Studies at The New School for Social Research ,"- ELZBIETA MATYNIA - Director of the Transregional Center for Democratic Studies
+- ADRIAN TOTTEN - Program Coordinator 
+- MARIIA SHYNKARENKO - Program Assistant and Ph.D. Student in Politics
+- ALISSA BOGUSLAW - Ph.D Student in Sociology
+- Shaowen Wang - Ph.D. Student in Sociology
+- VIKTORIA PASHTRIKU - TCDS intern working on Memory Studies
+- JOELLE SANTOS - M.A. Student in International Affairs
+- TRICIA PATRICK - M.A. Student in Arts Management and Entrepreneurship
+","- ADRIAN TOTTEN - Program Coordinator and Ph.D. Student in Politics
+- MARIIA SHYNKARENKO - Program Assistant and Ph.D. Student in Politics
+- ALISSA BOGUSLAW - Ph.D Student in Sociology
+- Shaowen Wang - Ph.D. Student in Sociology
+- VIKTORIA PASHTRIKU - TCDS intern working on Memory Studies
+- JOELLE SANTOS - M.A. Student in International Affairs
+- TRICIA PATRICK - M.A. Student in Arts Management and Entrepreneurship","TCDS's integrated program activities draws on the concept of the ""region"" as a promising perspective from which to examine the complex relations between the local and the global, not only for policy makers, but also for nongovernmental organizations and a new breed of practice-oriented scholars in the social sciences and humanities. While yielding more comprehensive, in-depth explanations of processes taking place in today's world, the transregional approach encourages and facilitates the quest for consensus among peoples separated by divergent histories, cultures, and economies.
 
 An core belief at TCDS is that adequate social and human capital is an essential element in forming and consolidating democratic governance. One proven cost-effective and valid method of cultivating this capital is to invest in the academic and professional development of, and collaboration with, civic-minded graduate students and junior faculty members at universities here and abroad. TCDS's programs, always open to the broad interests of our students and faculty and inspired by world events, have been engaged primarily with five regions: Central and Eastern Europe; Central Asia and the Caucasus; Sub-Saharan Africa; Latin America; and North America.
 
 TCDS's initiatives have led to the emergence and cultivation of extensive scholarly networks in these regions, bringing young scholars and civically committed academics together with the graduate students of the NSSR. There are many ways to get involved with TCDS, including applying to our Democracy &amp; Diversity graduate summer institutes (held annually in July in Wroclaw, Poland and January in Johannesburg, South Africa) for the opportunity to study directly with colleagues from those regions; attending our lectures, events and conferences at the New School; and by becoming a TCDS Associate.",,,"Telephone: 212.229.5580 x3136
 Fax: 212.229.5894
-Email: totta444@newschool.edu",http://blogs.newschool.edu/tcds/,Centers/Labs
+Email: totta444@newschool.edu",http://blogs.newschool.edu/tcds/,Centers/Labs,1,0,0,1,0
 Urban Systems Lab,Urban and Community Development,"In a nutshell
 We study the dynamics of interacting social, ecological, and technical infrastructure components of urban systems for improving policy and planning towards more equitable, resilient, and sustainable cities.","The New School
 79 Fifth Ave, 16th Floor, New York NY 10003",,"Dr. Timon McPhearson is Associate Professor of Urban Ecology at The New School’s Environmental Studies program, Director of the Urban Systems Lab, research faculty at Tishman Environment and Design Center.
@@ -956,7 +948,7 @@ Urban ecosystem structure and functioning
 Social equity and access to urban green space
 Ecosystem-based adaptation to climate change in cities",,,"timon.mcphearson@newschool.edu
 +1.212.229.2036
-@urbansystemlab",http://urbansystemslab.com/,Centers/Labs
+@urbansystemlab",http://urbansystemslab.com/,Centers/Labs,1,0,0,1,1
 Vera List Center for Art and Politics,"Art, Design, and Theory","The Vera List Center at The New School is a singular force in the critical investigation of art and politics. Named in honor of and synonymous with the legacy of philanthropist and arts advocate Vera G. List, the center has been dedicated to rigorously probing the world’s most crucial sociopolitical issues since its inception in 1992.
 
 Through compelling public programs, exhibitions, curriculum, art and research projects, performances, and prizes and awards, the center continues to galvanize discourse within The New School, in New York City and around the world. It plays an essential role in the university, engaging students in critical discourses and curatorial processes and providing them with unique opportunities through art and politics–focused awards and research endeavors. To this day, the Vera List Center (VLC) is the only university-based arts institution exclusively dedicated to investigating pressing world concerns.
@@ -1040,7 +1032,7 @@ Aperture Foundation
 Art in General
 Independent Curators International
 Public Art Fund","vlc@newschool.edu
-Phone: 212.229.2436",https://www.newschool.edu/vera-list-center/,Centers/Labs
+Phone: 212.229.2436",https://www.newschool.edu/vera-list-center/,Centers/Labs,1,0,0,1,1
 Zolberg Institute on Migration and Mobility,International Affairs and Global Perspectives,"The Zolberg Institute on Migration and Mobility at The New School supports critical and applied scholarship on issues of migration and mobility, and fosters opportunities for meaningful action.
 
 The Institute is a preeminent space for leading academics, practitioners and policymakers to reframe the discussion of migration and mobility, and the impact it has on human rights, economics, borders, and mobility. We bring together a diverse set of talents and skills from The New School community to rethink human mobility in innovative ways, advancing debates about migration and claims for social justice.","79 Fifth Avenue, 16th Floor
@@ -1105,4 +1097,4 @@ Leah Triber - Ph.D. student at the New School for Social Research ","Advisory Co
 - David Miliband
 - RobertMundheim
 - Robert H. Mundheim
-- Peter Seligmann",,,migration@newschool.edu,https://zolberginstitute.org/,Centers/Labs
+- Peter Seligmann",,,migration@newschool.edu,https://zolberginstitute.org/,Centers/Labs,1,0,0,1,0
