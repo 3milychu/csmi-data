@@ -155,7 +155,7 @@ function update() {
           // Append details text
           .on( 'click', function (d) {
 
-            // Details if sheet is "People"
+             // Details if sheet is "People"
             if (d.sheet == "People") {
               d3.select("h1").html("Key Contributors").attr("class", "people"); 
               d3.select("h2").html(d.first + " " + d.last + "<br>" + d.role); 
@@ -165,7 +165,7 @@ function update() {
             // Details if sheet is "Events"
             if (d.sheet == "Events") {
               d3.select("h1").html("Event").attr("class", "event"); 
-                d3.select("h2").html(caps(d.event_name) + "<br><br>" + caps(d.event_date.substring(0,50)) + 
+                d3.select("h2").html(caps(d.event_name) + "<br><br>" + d.event_date.substring(0,50).toLowerCase() + 
                   "<br><br>" + d.where);
                 if (d.event_type != 0) {
                    d3.select("h3").html (d.event_type)
@@ -177,7 +177,7 @@ function update() {
             // Details if sheet is "Courses"
             if (d.sheet == "Courses") {
               d3.select("h1").html("Course").attr("class", "course"); 
-              d3.select("h2").html(d.course_name  + "<br><br>" + d.instructor ); 
+              d3.select("h2").html(d.course_name.toLowerCase() + "<br><br>" + d.instructor.toLowerCase()); 
               d3.select("h3").html (d.school_college)
               // d3.select("#featured").html("<img src='" + d.src + "'>"); 
             }
@@ -185,21 +185,21 @@ function update() {
             // Details if sheet is "Organization"
             if (d.sheet == "Organizations") {
               d3.select("h1").html("Organization").attr("class", "org"); 
-              d3.select("h2").html(d.organization_name  + "<br><br>" + d.description ); 
-              d3.select("h3").html ("")
+              d3.select("h2").html(d.organization_name + "<br><br>"); 
+              d3.select("h3").html (d.description)
             }
 
             // Details if sheet is "Centers/Labs"
             if (d.sheet == "Centers/Labs") {
               d3.select("h1").html("Center / Lab").attr("class", "center"); 
-              d3.select("h2").html(d.center_lab_name  + "<br><br>" + d.subject ); 
+              d3.select("h2").html(d.center_lab_name + "<br><br>" + d.subject); 
               d3.select("h3").html ("<a href=mailto:'" + d.contact + "'>" + "Contact"+ "</a>")
             }
 
-             // Details if sheet is "External"
+            // Details if sheet is "External"
             if (d.sheet == "External") {
               d3.select("h1").html("External Center").attr("class", "external"); 
-              d3.select("h2").html(d.external_center_name  + "<br><br>" + d.university_affiliation + "<br><br>" +d.mission ); 
+              d3.select("h2").html(d.external_center_name + "<br><br>" + d.university_affiliation + "<br><br>" +d.mission); 
               d3.select("h3").html ("<a href='" + d.link + "' target='_blank'>Visit</a>")
             }
                 
