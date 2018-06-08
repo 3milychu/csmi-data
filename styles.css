@@ -7,6 +7,59 @@ h4 {
   font-size:3em;
 }
 
+.media-holder {
+  z-index:0;
+}
+
+iframe {
+  z-index:1;
+}
+
+.showlegend {
+  position:fixed;
+  bottom:0%;
+  right:5%;
+  background-color:#263B71;
+  color:white;
+  padding:1%;
+  cursor:pointer;
+  z-index:100;
+}
+
+.legend {
+  padding:1% 2% 1% 5%;
+  bottom:0;
+  background-color: #F2F2F2;
+  position:fixed;
+  z-index:100;
+  transition:0.5s ease;
+}
+
+.list img {
+  width:10%;
+}
+
+.list text {
+  margin-left: 10%;
+  vertical-align:top;
+  font-size:0.8em;
+  letter-spacing:0.05em;
+  text-transform:uppercase;
+  font-weight:600;
+}
+
+.list {
+  display:inline-block;
+  margin:1%;
+  width:15%;
+}
+
+#close {
+  margin-left:5%;
+  width:5%;
+  cursor:pointer;
+}
+
 .people {
   background-color: #443489;
   width:60%;
@@ -176,6 +229,7 @@ path.link {
 /*page*/
 
 .title {
+  z-index:100;
   background-color: #333333;
   top:0;
   left:0;

@@ -26,6 +26,15 @@ $("#nav").css("opacity", "0");
 }
 };
 
+function slideDown() {
+	document.getElementById('legend').style.height="0%";
+	document.getElementById('legend').style.padding="0%";
+}
+
+function slideUp() {
+	document.getElementById('legend').style.height="auto";
+	document.getElementById('legend').style.padding="1% 2% 1% 5%";
+}
 
 </script>
 <body>
@@ -56,32 +65,75 @@ $("#nav").css("opacity", "0");
 	</div>
 
 
+			<div class="legend" id="legend">
+				<div class="items">
+					<div class="list">
+						<img src="assets/1.jpg"><text>People</text>
+					</div>
+					
+					<div class="list">
+						<img src="assets/2.jpg"><text>Events</text>
+					</div>
+
+					<div class="list">
+						<img src="assets/3.jpg"><text>Courses</text>
+					</div>
+					
+					<div class="list">
+						<img src="assets/4.jpg"><text>Organizations</text>
+					</div>
+
+					<div class="list">
+						<img src="assets/5.jpg"><text>Centers / Labs</text>
+					</div>
+
+					<div class="list" id="close" onclick="slideDown();">
+							<text>&#9660;</text>
+					</div>
+				</div>
+			</div>
+
 <!-- Visualizations -->
 <div class="scroll-post">
 
 	<!-- Tag 1 -->
 	<div class="media-holder">
 		<iframe id="tag1" width="315" height="560" src="pages/tag1.html" scrolling="no" frameBorder="0"></iframe>
+			<div class="showlegend" onclick="slideUp();">
+				<text>Legend</text>
+			</div>
 	</div>
 
 	<!-- Tag 2 -->
 	<div class="media-holder" style="background-color: #F2F2F2";>
 		<iframe id="tag2" width="315" height="560" src="pages/tag2.html" scrolling="no" frameBorder="0"></iframe>
+		<div class="showlegend" onclick="slideUp();">
+				<text>Legend</text>
+			</div>
 	</div>
 
 	<!-- Tag 3 -->
 	<div class="media-holder">
 		<iframe id="tag3" width="315" height="560" src="pages/tag3.html" scrolling="no" frameBorder="0"></iframe>
+		<div class="showlegend" onclick="slideUp();">
+				<text>Legend</text>
+			</div>
 	</div>
 
 	<!-- Tag 4 -->
 	<div class="media-holder" style="background-color: #F2F2F2";>
 		<iframe id="tag4" width="315" height="560" src="pages/tag4.html" scrolling="no" frameBorder="0"></iframe>
+		<div class="showlegend" onclick="slideUp();">
+				<text>Legend</text>
+			</div>
 	</div>
 
 	<!-- Tag 5 -->
 	<div class="media-holder">
 		<iframe id="tag5" width="315" height="560" src="pages/tag5.html" scrolling="no" frameBorder="0"></iframe>
+		<div class="showlegend" onclick="slideUp();">
+				<text>Legend</text>
+			</div>
 	</div>
 
 </div>
