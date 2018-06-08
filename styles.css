@@ -61,6 +61,10 @@ iframe {
   cursor:pointer;
 }
 
+#close:hover {
+  color: #263B71;
+}
+
 .people {
   background-color: #443489;
   width:60%;
