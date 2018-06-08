@@ -59,10 +59,12 @@ iframe {
   margin-left:5%;
   width:5%;
   cursor:pointer;
+  color: #263B71;
+  transition:0.5s ease;
 }
 
 #close:hover {
-  color: #263B71;
+  color: #CBA1BD;
 }
 
 .people {
